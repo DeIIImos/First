@@ -7,45 +7,70 @@
     <title>Знакомство с HTML тегами Часть 3 (Формы)</title>
 </head>
 <body>
-   <form action="#" method="post" enctype="multipart/form-data"></form>
+   <form action="#" method="post" enctype="multipart/form-data">
     <div>
-        <input type="text" name="username" value="">
+        <p>Имя</p>
+        <input placeholder="Имя" tabindex="1" name="username" type="text">
+        <p>Фамилия</p>
+        <input placeholder="Фамилия" name="Familia" type="text">
     </div>
     <div>
-        <input type="password" name="userpass" value="">
+        <p>Пароль</p>
+        <input tabindex="2" name="userpass" type="password">
     </div>
     <div>
-        <p><input checked type="radio" name="beer" value="lager">Светлое пиво</p>
-        <p><input type="radio" name="beer" value="dark">Темное пиво</p>
+        <p>Телефон</p>
+        <input tabindex="3" name="userphone" type="tel">
     </div>
-    <br>
     <div>
-        <p><input type="radio" name="beer2" value="lager">Светлое пиво</p>
-        <p><input checked type="radio" name="beer2" value="dark">Темное пиво</p>
+        <p>Пол</p>
+        <div>
+            <input tabindex="4" checked type="radio" name="gender" value="male">Мужской
+        </div>
+        <div>
+            <input tabindex="4" type="radio" name="gender" value="female">Женский
+        </div>       
     </div>
-    <br>
     <div>
-        <p><input type="checkbox" name="car" value="yes">Наличие авто</p>
+        <p>Имущество</p>
+        <div>
+            <input tabindex="5" checked type="checkbox" name="bike" value="yes">Велик
+        </div>
+        <div>
+            <input tabindex="6" type="checkbox" name="car" value="yes">Машина
+        </div>
+        <div>
+            <input tabindex="7" disabled type="checkbox" name="house" value="yes">Дом
+        </div>
     </div>
-    <br>
     <div>
-        <p><input type="file" name="foto"></p>
+        <p>Допольнительная информация</p>
+        <textarea tabindex="8" name="text"></textarea>
     </div>
-    <br>
     <div>
-        <textarea name="text"></textarea>
+        <p>Прикрепить фото</p>
+        <input tabindex="9" name="userfoto" type="file">
     </div>
-    <br>
     <div>
-        <select name="color">
+        <p>Любимый цвет</p>
+        <select tabindex="10" name="color">
             <option value="red">Красный</option>
-            <option selected value="yellow">Желтый</option>
-            <option value="blue">Голубой</option>
+            <option value="green">зеленый</option>
+            <option selected value="yellow">желтый</option>
+            <option value="blue">синий</option>
         </select>
     </div>
-    <br>
     <div>
-        <button type="submit">Отправить</button>
+        <p>Действие</p>
+        <button tabindex="11" type="submit">Отправить</button>
+        <button tabindex="12" type="reset">Очистить</button>
     </div>
+
+
+
+
+
+
+    </form>
 </body>
 </html>
