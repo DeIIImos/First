@@ -48,3 +48,46 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 .italic{
     font-style: italic;
 }
+
+.font700{
+    font-weight: 700;
+}
+
+.colorred{
+    color: red;
+}
+
+.textright{
+    text-align: center;
+}
+
+.decoration{
+    text-decoration: line-through;
+}
+
+.shadow{
+    text-shadow: 1px 1px 6px #000;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.ident{
+    text-indent: 50px;
+}
+
+.ispace{
+    letter-spacing: 5px;
+}
+
+.wspace{
+    word-spacing: 5px;
+}
+.white{
+    white-space: nowrap;
+}
+
+.lineheight{
+    line-height: 20px;
+}
