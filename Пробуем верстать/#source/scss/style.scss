@@ -1,0 +1,60 @@
+//файл обнуляющих стилей
+@import "nullstyle.scss";
+
+@mixin position($position, $left: null, $right: null, $top: null, $bottom: null) {
+    position: $position;
+    left: $left;
+    right: $right;
+    top: $top;
+    bottom: $bottom;
+}
+.border-box{
+position: absolute;
+width: 1445px;
+height: 4759px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+.block{
+    text-align: center;
+    position: relative;
+    font-size:18px;
+    line-height:22px;
+    color: #828282;
+    font-family: "Gilroy-Bold" ;
+    
+    
+    .Home{
+      @include position(absolute,17.44%,79.15%,0.69%,98.82% );
+      font-size:22.28px;
+      color:#070707;
+    }
+    .AboutMe{
+        @include position(absolute,31.62%,62.68%,0.69%,98.82% );  
+    }
+    .Skills{
+        @include position(absolute,48.09%,48.99%,0.69%,98.82% );
+        }
+    .Portfolio{
+        @include position(absolute,61.71%,33.29%,0.67%,99.03% );
+    }
+    .Contacts{
+        @include position(absolute, 77.48%, 17.16%,0.69%,98.82% )
+     }
+     
+     .aline{
+        position: absolute;
+        width: 940.6px;
+        height: 0px;
+        left: 250.69px;
+        top: 87.94px;
+        
+        border: 1px solid #828282;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        
+        }
+
+}
+}
+

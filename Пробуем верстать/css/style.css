@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.border-box {
+  position: absolute;
+  width: 1445px;
+  height: 4759px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+.border-box .block {
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+  font-family: "Gilroy-Bold";
+}
+
+.border-box .block .Home {
+  position: absolute;
+  left: 17.44%;
+  right: 79.15%;
+  top: 0.69%;
+  bottom: 98.82%;
+  font-size: 22.28px;
+  color: #070707;
+}
+
+.border-box .block .AboutMe {
+  position: absolute;
+  left: 31.62%;
+  right: 62.68%;
+  top: 0.69%;
+  bottom: 98.82%;
+}
+
+.border-box .block .Skills {
+  position: absolute;
+  left: 48.09%;
+  right: 48.99%;
+  top: 0.69%;
+  bottom: 98.82%;
+}
+
+.border-box .block .Portfolio {
+  position: absolute;
+  left: 61.71%;
+  right: 33.29%;
+  top: 0.67%;
+  bottom: 99.03%;
+}
+
+.border-box .block .Contacts {
+  position: absolute;
+  left: 77.48%;
+  right: 17.16%;
+  top: 0.69%;
+  bottom: 98.82%;
+}
+
+.border-box .block .aline {
+  position: absolute;
+  width: 940.6px;
+  height: 0px;
+  left: 250.69px;
+  top: 87.94px;
+  border: 1px solid #828282;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+          transform: matrix(1, 0, 0, 1, 0, 0);
+}
