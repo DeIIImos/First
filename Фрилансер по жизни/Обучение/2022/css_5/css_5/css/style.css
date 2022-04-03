@@ -36,14 +36,15 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
+body{
+    padding: 30px;
+}
 
-.examle-block{
-    max-height: 200px;
-    border: 1px solid #000;
-}
-.example-string{
-    width: 500px;
-}
-.exaple-image{
-    width: 100px;
+.block{
+    background: url('/css_5/img/avatar_3.jpg') 100px 50px no-repeat;
+
+
+   height: 300px;
+   border-radius: 15px;
+   box-shadow: 0 0 10px #000; 
 }

@@ -36,14 +36,26 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
+body{
+    padding: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 
-.examle-block{
-    max-height: 200px;
-    border: 1px solid #000;
+.list{
+    font-size: 18px;
 }
-.example-string{
-    width: 500px;
+
+.list li{
+    margin: 0 0 10px 0; 
+    position: relative;
+    padding: 0 0 0 30px;
 }
-.exaple-image{
-    width: 100px;
+.list li::before{
+    content: '';
+    background: url(/css_8/img/icons/li.svg)0 0 no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 0;
 }
