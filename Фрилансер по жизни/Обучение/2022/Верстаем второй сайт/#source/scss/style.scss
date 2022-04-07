@@ -1,0 +1,47 @@
+//файл обнуляющих стилей
+@import "nullstyle.scss";
+//Шрифты "PT Sans" и ""Bebas Neue"
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+//Шрифт "AkzidenzGroteskBQ"
+@font-face {
+    font-family: 'Akzidenz-Grotesk';
+    src: url('../fonts/AkzidenzGroteskBQ-Super.eot');
+    src: url('../fonts/AkzidenzGroteskBQ-Super.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AkzidenzGroteskBQ-Super.woff2') format('woff2'),
+        url('../fonts/AkzidenzGroteskBQ-Super.woff') format('woff'),
+        url('../fonts/AkzidenzGroteskBQ-Super.ttf') format('truetype'),
+        url('../fonts/AkzidenzGroteskBQ-Super.svg#AkzidenzGroteskBQ-Super') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+//Шрифт "Bebas"
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/Bebas.eot');
+    src: url('../fonts/Bebas.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Bebas.woff2') format('woff2'),
+        url('../fonts/Bebas.woff') format('woff'),
+        url('../fonts/Bebas.ttf') format('truetype'),
+        url('../fonts/Bebas.svg#Bebas') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.text__1 {
+    font-family: 'Akzidenz-Grotesk';
+    font-size: 35px;
+    padding: 0 0 35px 0;
+    line-height: 35px;
+}
+
+.text__2 {
+    font-family: "bebas";
+    font-size: 35px;
+    padding: 0 0 35px 0;
+    line-height: 35px;
+}
