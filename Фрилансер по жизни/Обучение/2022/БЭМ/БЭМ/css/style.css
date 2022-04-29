@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /*Обнуление*/
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -75,24 +74,98 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-@font-face {
-  font-family: 'AkzidenzGrotesk';
-  src: url("../fonts/AkzidenzGroteskBQ-Super.eot");
-  src: url("../fonts/AkzidenzGroteskBQ-Super.eot?#iefix") format("embedded-opentype"), url("../fonts/AkzidenzGroteskBQ-Super.woff2") format("woff2"), url("../fonts/AkzidenzGroteskBQ-Super.woff") format("woff"), url("../fonts/AkzidenzGroteskBQ-Super.ttf") format("truetype"), url("../fonts/AkzidenzGroteskBQ-Super.svg#AkzidenzGroteskBQ-Super") format("svg");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Bebas';
-  src: url("../fonts/Bebas.eot");
-  src: url("../fonts/Bebas.eot?#iefix") format("embedded-opentype"), url("../fonts/Bebas.woff2") format("woff2"), url("../fonts/Bebas.woff") format("woff"), url("../fonts/Bebas.ttf") format("truetype"), url("../fonts/Bebas.svg#Bebas") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
-  font-family: "PT Sans";
+  font-family: Lato;
+}
+
+.about__body {
+  max-width: 823px;
+  margin: 0px auto;
+}
+
+.about__header {
+  margin: 0 0 65px 0;
+}
+
+.about__title {
+  margin: 0px 0px 30px 0px;
+}
+
+.about__text {
+  max-width: 688px;
+  color: #868585;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 25.89px;
+  margin: 0px auto;
+}
+
+.about__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px -15px;
+}
+
+.about__colum {
+  padding: 0px 15px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333%;
+          flex: 0 0 33.333%;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8.95px;
+  position: relative;
+  text-align: center;
+  padding: 0px 0px 30px 0px;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  width: 50px;
+  bottom: 0;
+  height: 1px;
+  left: 50%;
+  background-color: #000;
+  margin: 0 0 0 -25px;
+}
+
+.item-about__icon {
+  border-radius: 50%;
+  width: 92px;
+  height: 92px;
+  border: 2px solid #f1f1f1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.item-about__title {
+  text-align: left;
+  color: #000;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 3.52px;
+  margin: 0px 0px 35px 0px;
+}
+
+.item-about__text {
+  text-align: center;
+  font-weight: 300;
+  line-height: 26px;
+  color: #868585;
+  width: 183px;
+  height: 66px;
 }
