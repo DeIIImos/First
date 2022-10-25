@@ -118,7 +118,7 @@ text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header{
+.waiting .waiting_header, .finish .finish_header{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 30px; 
@@ -126,7 +126,11 @@ text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     text-align: center;
 }
 
-.waiting .waiting_divider{
+.finish_header{
+    color:#FFFFFF;
+}
+
+.waiting .waiting_divider, .finish .finish_divider{
     background: #F9BF3B;
     width: 217px;
     height: 4px;
@@ -203,4 +207,41 @@ text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     top: -54px;
     left: -240px;
     z-index: -1;
+}
+
+.finish{
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/Bg/second_bg.png') center center/cover no-repeat;
+}
+
+.finish .finish_wraper{
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wraper .finish_item{
+    width: 204px;
+}
+
+.finish .finish_wraper .finish_item .finish_round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background: #B4E2FF;
+    border-radius: 100%;
+}
+
+.finish .finish_wraper .finish_item .finish_descr{
+    margin-top: 25px;
+    text-align: center;
+    color: #EFEFEF;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
 }
