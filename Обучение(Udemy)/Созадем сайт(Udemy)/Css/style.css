@@ -245,3 +245,130 @@ text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     font-size: 17px;
     line-height: 20px;
 }
+
+.gift{
+    min-height: 631px;
+    background: #EFEFEF;
+    padding: 88px 0 78px 0;
+    display: flex;
+}
+
+.gift .gift_img{
+    height: 174px;
+    width: 154px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.gift .gift_text{
+    margin-top: 45px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    color: #252525;
+    
+}
+
+.gift .gift_btn{
+display: block;
+margin: 0 auto;
+margin-top: 73px;
+width: 333px;
+height: 92px;
+border: 4px solid rgba(0,0,0,0.23);
+background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+color: #FFFFFF;
+font-family: 'Roboto Condensed';
+font-size: 21px;
+line-height: 24px;
+text-transform: uppercase;
+cursor: pointer;
+padding: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.webinar{
+    min-height: 512px;
+    background: #fffff;
+    display: flex;
+}
+
+.webinar .webinar_content{
+    padding-top: 81px;
+    margin: 0 auto;
+    height: 433px;
+    width: 577px;
+    
+}
+
+.webinar .webinar_content .webinar_img{
+    height: 201px;
+    width: 342px;
+    margin: 0 auto;
+}
+
+.webinar .webinar_content .webinar_title{
+padding-top: 36px;
+font-family: 'Roboto';
+font-size: 30px;
+line-height: 30px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+}
+
+.webinar .webinar_content .webinar_time{
+padding-top: 30px;
+color: #299CBD;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 36px;
+line-height: 36px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+}
+
+.webinar .webinar_content .webinar_promo{
+padding-top: 24px;
+color: #4A4A4A;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 23px;
+align-items: center;
+text-align: center;
+}
+
+.end{
+    background: #1A1A1A;
+    min-height: 169px;
+    display: flex;
+}
+
+a{
+    padding-top: 57px;
+    margin: 0 auto;
+    color: #888888;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    
+}
+
+.footer_links{
+    display: flex;
+    padding-top: 57px;
+    margin: 0 auto;
+
+}
+.end .links{
+    display: inline-block;
+    font-size: 15px;
+    border-right: 1px solid #d0d0d0;
+}
