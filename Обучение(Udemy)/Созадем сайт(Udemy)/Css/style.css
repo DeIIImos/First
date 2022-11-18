@@ -343,32 +343,60 @@ align-items: center;
 text-align: center;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
 .end{
     background: #1A1A1A;
-    min-height: 169px;
-    display: flex;
+    min-height: 169px;   
+    text-align: center;
+
 }
 
 a{
     padding-top: 57px;
     margin: 0 auto;
-    color: #888888;
     font-family: 'Roboto';
     font-weight: 300;
     font-size: 15px;
     line-height: 21px;
+    color: #888888;
     text-decoration-line: underline;
+    text-align: center;
     
 }
 
 .footer_links{
     display: flex;
     padding-top: 57px;
-    margin: 0 auto;
+    text-align: center;
+    color: #888888;
 
 }
-.end .links{
-    display: inline-block;
+.footer_links{
+    display: inline;
     font-size: 15px;
-    border-right: 1px solid #d0d0d0;
+    align-items:center;
+    text-align: center;
+    
 }
+
+.help{
+    width: 407px;
+    height: 43px;
+    padding-top: 67px;
+    display: flex;
+    justify-content:center
+    
+}
+
+.vr {
+    display: inline;
+    height: 20px;
+    margin: 10px;
+    border-left: 2px solid #888888;
+}
+
