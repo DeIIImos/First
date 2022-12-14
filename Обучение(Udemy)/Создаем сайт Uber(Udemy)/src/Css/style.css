@@ -25,3 +25,19 @@ nav{
     border-right: 2px dotted black;
     padding-right: 28px;
 }
+
+.subheader{
+    height: 87px;
+    background: rgba(0,0,0, .6);
+}   
+
+.subheader .subheader_logo {
+    max-width: 100%;
+}
+
+.subheader .subheader_official{
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+}
